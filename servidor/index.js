@@ -13,7 +13,7 @@ import userRouter from './routes/user.js';
 import crudRouter from './routes/crud.js';
 
 // Hardcoded configuration
-const MONGODB_URI = 'mongodb+srv://JorgeParra:4209@clusterulsa.ebajblo.mongodb.net/gym4ulsa?retryWrites=true&w=majority&appName=atlas-app';
+const MONGODB_URI = 'mongodb+srv://api_user:4209@clusterulsa.ebajblo.mongodb.net/gym4ulsa?retryWrites=true&w=majority&appName=atlas-app';
 const JWT_SECRET = 'dev_secret_change_later';
 const PORT = 4001;
 
