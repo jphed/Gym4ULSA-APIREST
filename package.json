@@ -1,0 +1,17 @@
+{
+  "name": "mi-proyecto-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo cliente/servidor con scripts de orquestación",
+  "scripts": {
+    "install:all": "npm --prefix servidor install && npm --prefix cliente install",
+    "dev": "concurrently \"npm --prefix servidor run dev\" \"npm --prefix cliente run dev\"",
+    "server": "npm --prefix servidor run dev",
+    "client": "npm --prefix cliente run dev",
+    "build": "npm --prefix cliente run build",
+    "lint": "echo 'add linters'"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
